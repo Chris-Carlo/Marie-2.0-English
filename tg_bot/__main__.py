@@ -19,8 +19,18 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
 no one gonna help you 🤣🤣🤣🤣
-Join @CC_AllMovieChannel
-Group : @CC_AllMoviesGroup
+reply_markup=InlineKeyboardMarkup(
+            [
+                [
+                    InlineKeyboardButton('My Group', url='https://t.me/CC_AllMoviesGroup'),
+                    InlineKeyboardButton('My Channel', url='https://t.me/CC_AllMovieChannel')
+                ],
+                [
+                    InlineKeyboardButton('My Father', url='https://t.me/odysseusmax')
+                ]
+            ]
+        )
+    )
 """
 
 HELP_STRINGS = """
